@@ -1,0 +1,427 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg{
+    background-image: url(Premium\ Photo\ _\ Athlete\ muscular\ bodybuilder\ man\ posing\ with\ dumbbells\ in\ gym_.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    width: 100%;
+    height: 170px;
+    display: flex;
+     align-items: center; 
+    justify-content:space-evenly;
+}
+
+.logo .num p{
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+.logo .num p span{
+    color: #e1193e;
+    margin-right: 10px;
+}
+.logo .num a img{
+    width: 30%;
+}
+
+.icon{
+    display: flex; 
+    gap: 10px;
+    align-items: end;
+    justify-content: end;
+    margin-bottom: 12px;
+}
+.icon .a1{
+    width: 30px;
+    height: 30px;
+    transform: skew(-25deg);
+    background-color: #e1193e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon .a1 img{
+    width: 20px;
+}
+.icon .a2{
+    width: 30px;
+    height: 30px;
+    transform: skew(-25deg);
+    background-color: #e1193e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon .a2 img{
+    width: 20px;
+}
+.icon .a3{
+    width: 30px;
+    height: 30px;
+    transform: skew(-25deg);
+    background-color: #e1193e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon .a3 img{
+    width: 25px;
+}
+.item{
+   border-top: 2px solid #e1193e;
+   /* padding-top: 10px; */
+   display: flex;
+   align-items: center;
+}
+.item a.active{
+    color:#e1193e;
+}
+.item a{
+    text-decoration: none;
+    color: white;
+    margin-left:20px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.item a:hover{
+    color:#e1193e;
+}
+.item .a4{
+    width: 180px;
+    height: 50px;
+    transform: skewX(-25deg);
+    background-color: #e1193e;
+     margin-left: 50px; 
+    margin-right: 10px;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con h4{
+    font-size: 60px;
+    color: white;
+    margin: 100px 0 0 100px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.con p{
+    color: white;
+    font-size: 16px;
+    margin: 16px 0 0 100px;
+    opacity: 0.7;
+}
+.con button{
+    margin: 50px 0 0 100px;
+    padding: 14px 20px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #e1193e;
+    border: none;
+    font-size: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* contanc section */
+
+.cont{
+    display: flex;
+}
+.cont .img img{
+    width: 550px;
+    margin: 80px 0 0 100px;
+}
+
+.info{
+    margin: 130px 0 0 80px;
+}
+.info h6{
+    font-size: 18px;
+    color: #e1193e;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.info h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: #011f39;
+}
+.info h3 span{
+    color: #e1193e;
+}
+
+.info p{
+    margin-bottom: 40px;
+    line-height: 1.5rem;
+    opacity: 0.7;
+}
+.info .B1 h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+.info .B1 h5 span{
+    margin-right: 20px;
+    color: #e1193e;text-align: center;
+}
+
+.count{
+    display: flex;
+    margin-left: 210px;
+}
+.count .scal{
+    width: 60px;
+    height: 130px;
+    background-color: #e1193e;
+    transform: skew(-25deg);
+    z-index: 100;
+    /* position: absolute; */
+}
+.count .scal1{
+    width: 40px;
+    height: 130px;
+    background-color:rgba(255, 255, 255, 0.369);
+    transform: skew(-25deg);
+    z-index: 100;
+    opacity: 0.4;
+}
+.count .scal2{
+    width: 40px;
+    height: 130px;
+    background-color: transparent;
+    z-index: 100;
+    transform: skew(-25deg);
+}
+
+.count .num{
+    width: 75%;
+    height: 130px;
+    background-color: blue;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+.count .num .b1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.count .num .b1 p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 5px;
+}
+.count .num .b1 h6{
+    color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* feature */
+
+.head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 70px 0 60px 0;
+}
+.head h6{
+    font-size: 18px;
+    color: #e1193e;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.head h4{
+    color: #011f39;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 35px;
+}
+.head h4 span{
+    color: #e1193e;
+}
+
+.sec{
+    display: flex;
+    align-items: center;
+    margin: 50px 100px;
+}
+.sec .sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.sec .sec1 img{
+    width: 40%;
+    margin: 20px;
+}
+.sec .sec1 h6{
+    color: #011f39;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.sec .sec1 p{
+    font-size: 13px;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.sec .skew{
+    transform: skew(-10deg);
+    border-left: 2px dashed rgba(0, 0, 0, 0.455);
+    border-right: 2px dashed rgba(0, 0, 0, 0.456);
+
+}
+.sec .sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+   
+}
+.sec .sec2 img{
+    width: 40%;
+    margin: 10px;
+    border-radius: 50%;
+}
+.sec .sec2 h6{
+    color: #011f39;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.sec .sec2 p{
+    font-size: 13px;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.sec .sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.sec .sec3 img{
+    width: 40%;
+    margin: 10px;
+    border-radius: 50%;
+}
+.sec .sec3 h6{
+    color: #011f39;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.sec .sec3 p{
+    font-size: 13px;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.contaner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+    background-color: rgba(0, 0, 0, 0.037);
+    margin-bottom: 50px;
+}
+.contaner .d1{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.contaner .d1 h6{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.contaner .d1 h4{
+    font-size: 35px;
+    color: #e1193e;
+    margin: 20px 0 25px 0;
+}
+.contaner .d1 h4 span{
+    font-size: 20px;
+    color: black;
+    opacity: 0.7;
+    margin-right: 5px;
+}
+.contaner .d1 .slice p{
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 14px;
+    opacity: 0.7;
+}
+.contaner .d1 .slice p span{
+    color: #e1193e;
+    opacity: none;
+    margin-right: 10px;
+}
+.contaner .d1 button{
+    padding: 16px 55px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #e1193e;
+    border: none;
+    font-weight: bolder;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 10px 0 30px 0;
+}
+.contaner .d1:hover{
+    box-shadow: 12px 12px 5 blue;
+}
+.contaner .d1 button:hover{
+    background-color: blue;
+    transition: 1s;
+}
