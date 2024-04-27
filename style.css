@@ -440,7 +440,7 @@
     width: 24%;
 }
 .C1 .c1 img{
-    width: 90%;
+    width: 100%;
 }
 .C1 .c2{
     width: 24%;
@@ -569,7 +569,7 @@ footer .l4 .z1 img{
     .nav{
         height: 100px;
         justify-content: space-between;
-        margin: 0 0 0 50px;
+        padding-left: 50px;
     }
     .bg{
         max-width: 200%;
@@ -742,5 +742,318 @@ footer .l4 .z1 img{
     .contaner .d1 button{
         margin: 10px 0 0 0;
         padding: 15px 40px;
+    }
+    .C1{
+        flex-direction: column;
+        margin: 0;
+    }
+    .C1 .c1{
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 2px 2px 4px black;
+    }
+    .C1 .c2{
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .C1 .c2 h4{
+        margin: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+    .C1 .c2 p{
+        font-size: 12px;
+        line-height: 15px;
+        margin: 10px 0 20px 0;
+        text-align: center;
+    }
+    footer{
+        height: auto;
+        display: block;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    footer .l1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .l1 img{
+        width: 120px;
+        margin: 20px;
+    }
+    footer .l1 p{
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        margin-bottom:10px;
+    }
+    footer .l1 .iconn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .l2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .l2 h4{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    footer .l2 p{
+        width: 50%;
+        
+    }
+    footer .l3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .l3 h4{
+        margin: 30px 0;
+    }
+    footer .l3 .iconn{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    footer .l3 .iconn img{
+        width: 20px;
+        height: 18px;
+    }
+    footer .l4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:425px){
+    .nav{
+        padding-left: 30px;
+    }
+    .logo .num p{
+        font-size: 8px;
+        margin: 8px 0px;
+    }
+    .logo .num a img {
+        width: 25%;
+    }
+    .con h4{
+        font-size: 16px;
+        margin: 10px 0 0 30px;
+        width: 50%;
+    }
+    .con p{
+        width: 35%;
+        font-size: 8px;
+        margin: 12px 0 0 30px;
+        line-break:auto;
+        line-height: 12px;
+    }
+    .con button{
+        margin: 10px 0 20px 30px;
+        padding: 10px 18px;
+        font-size: 8px;
+    }
+
+    .cont .img img{
+        width: 280px;
+    }
+    .info{
+        margin: 0 30px;
+    }
+    .info h6{
+        font-size: 12px;
+    }
+    .info h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .info p{
+        font-size: 10px;
+        line-height: 1rem;
+        width: 60%;
+        margin-bottom: 25px;
+    }
+    .info .B1 h5{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+     /* .conunt */
+  
+    .count .scal2{
+       width: 25px;
+       
+    }
+    .head{
+        margin: 40px 0 20px 0;
+    }
+    .head h6{
+        font-size: 10px;
+    }
+    .head h4{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .sec .sec1{
+        width: 60%;
+    }
+    .sec .sec1 img{
+        width: 30%;
+        margin: 7px;
+    }
+    .sec .sec1 h6{
+        font-size: 18px;
+    }
+    .sec .sec1 p{
+        font-size: 8px;
+        width: 70%;
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+
+    .sec .sec2{     
+        width: 60%;
+    }
+    .sec .sec2 img{
+        width: 20%;
+    }
+    .sec .sec2 h6{
+        font-size: 18px;
+    }
+    .sec .sec2 p{
+        width: 60%;
+        font-size: 8px;
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+    .sec .sec3{
+        width: 60%;
+    }
+    .sec .sec3 img{
+        width: 30%;
+        margin: 0;
+    }
+    .sec .sec3 h6{
+        font-size: 18px;
+    }
+    .sec .sec3 p {
+        width: 60%;
+        font-size: 8px;
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+
+    .contaner .d1{
+        width: 60%;
+        margin: 10px 0;
+        padding: 20px 10px;
+    }
+    .contaner .d1 h6{
+        font-size: 10px;
+    }
+    .contaner .d1 h4{
+        margin: 7px 0;
+        font-size: 30px;
+    }
+    .contaner .d1 .slice p{
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    .contaner .d1 button{
+        margin: 10px 0 0 0;
+        padding: 12px 30px;
+    }
+    
+    .C1 .c1{
+        width: 60%;
+    }
+
+    .C1 .c2{
+        width: 60%;
+    }
+    .C1 .c2 h6{
+        font-size: 10px;
+        margin: 20px 0 8px 0;
+    }
+    .C1 .c2 h4{
+        font-size: 14px;
+
+    }
+    .C1 .c2 p{
+        font-size: 10px;
+        line-height: 15px;
+        margin: 5px 0 20px 0;
+        text-align: center;
+    }
+
+  
+ 
+    footer .l1 img{
+        width: 100px;
+    }
+    footer .l1 p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    footer .l2 h4{
+        margin-bottom: 18px;
+    }
+    footer .l2 p{
+         width: 50%;
+        font-size: 14px; 
+    }
+    footer .l3 p{
+        font-size: 10px;
+    }
+    footer .l3 h4{
+        margin: 20px 0;
+    }
+    footer .l3 .iconn{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    footer .l3 .iconn img{
+        width: 18px;
+        height: 14px;
+    }
+    footer .l4 .z1 img{
+        width: 70px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .info h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .head h4 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .sec .sec3 h6 {
+        font-size: 15px;
+    }
+    .C1 .c2 h4 {
+        font-size: 12px;
     }
 }
